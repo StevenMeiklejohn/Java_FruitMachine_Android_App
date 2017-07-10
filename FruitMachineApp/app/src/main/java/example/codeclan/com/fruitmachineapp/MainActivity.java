@@ -34,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
         img3 = (ImageView) findViewById(R.id.img3);
         btn = (Button) findViewById(R.id.btn);
         msg = (TextView) findViewById(R.id.msg);
+        isStarted = false;
 //        setup onClickListener on button
         btn.setOnClickListener(new View.OnClickListener() {
 
